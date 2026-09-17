@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+:root {
+    --primary: #6d7181;
+    --primary-dark: #626675;
+    --light-bg: #f3f3f5;
+    --card-bg: #fafafa;
+    --image-bg: #dedede;
+    --text: #333;
+}
+
+button {
+    direction: rtl;
+}

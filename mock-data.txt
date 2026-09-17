@@ -1,0 +1,115 @@
+** All services **
+GET /api/services
+
+[
+  {
+    "id": 1,
+    "title": "",
+    "description": "",
+    "type": "coaching",
+    "price": 100,
+    "image": "/images/.jpg"
+  },
+  {
+    "id": 2,
+    "title": "",
+    "description": "",
+    "type": "course",
+    "price": 79,
+    "image": "/images/.jpg"
+  },
+  {
+    "id": 3,
+    "title": "",
+    "description": "",
+    "type": "podcast",
+    "price": 0,
+    "image": "/images/.jpg"
+  }
+]
+
+** Individual services **
+GET /api/services/:id
+
+coaching: (not complete)
+{
+  "id": 2,
+  "type": "coaching",
+  "title": "Leadership Masterclass",
+  "description": "Learn the fundamentals of effective leadership.",
+  "price": 79,
+  "image": "/images/leadership.jpg",
+}
+
+courses:
+{
+  "id": 2,
+  "type": "course",
+  "isDone": "false",
+  "title": "Leadership Masterclass",
+  "description": "Learn the fundamentals of effective leadership.",
+  "price": 79,
+  "image": "/images/leadership.jpg",
+  "durationMins": "8 hours",
+  "lessonsCount": 24,
+  "lessons": [
+    {
+      "id":,
+      "title":,
+      "description":,
+      "durationMins":,
+      "publishedAt": "2026-09-10",
+    },
+    {
+      "id":,
+      "title":,
+      "description":,
+      "durationMins":,
+      "publishedAt": "2026-09-10",
+    }
+  ]
+}
+
+podcasts:
+{
+  "id": 3,
+  "type": "podcast",
+  "isDone": "true",
+  "title": "How to Build Better Habits",
+  "description": "A discussion about building sustainable habits.",
+  "price": 79,
+  "host": ""
+  "image": "/images/podcast.jpg",
+  "episodesCounts": 12,
+  "episodes": [
+    {
+      "id":,
+      "title":,
+      "description":,
+      "durationMins":,
+      "publishedAt": "2026-09-10",
+    }
+  ]
+}
+
+
+** feedbacks **
+GET /api/feedbacks
+
+feedbacks:
+{[
+  {
+  "userId": "",
+  "serviceId": "",
+  "serviceType": "",
+  "feedbackText": "",
+  "stars": ""
+},
+{
+  "userId": "",
+  "serviceId": "",
+  "serviceType": "",
+  "feedbackText": "",
+  "stars": ""
+}
+]}
