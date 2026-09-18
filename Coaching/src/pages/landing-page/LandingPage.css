@@ -1,7 +1,6 @@
-/* HERO */
-.hero-section {
+.landing-page-section {
   min-height: 315px;
-  background: var(--light-bg);
+  background: var(--color-beige);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,25 +9,29 @@
   padding: 40px 10%;
 }
 
-.hero-image {
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* HERO */
+.hero-image,
+.about-me-image {
   width: 190px;
   height: 190px;
   flex-shrink: 0;
   border-radius: 50%;
-  background: var(--image-bg);
+  background: var(--color-beige-dark);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #222;
 }
 
-.hero-content {
+.hero-content,
+.about-me-content {
   text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 24px;
-  margin-bottom: 2px;
 }
 
 .hero-key-words {
@@ -37,8 +40,9 @@
   margin-bottom: 22px;
 }
 
-.hero-button {
-  background: var(--primary);
+.hero-button,
+.about-me-button {
+  background: var(--color-sage);
   color: white;
   width: 190px;
   height: 38px;
@@ -51,27 +55,11 @@
   direction: rtl;
 }
 
-@media (max-width: 600px) {
-  .hero-section {
-    flex-direction: column;
-  }
-
-  .hero-image {
-    margin-bottom: 40px;
-  }
-}
-
 /* SERVICES */
 
 .services-section {
   background: white;
   padding: 40px 10%;
-}
-
-.section-title {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
 }
 
 .cards-container {
@@ -82,7 +70,7 @@
 
 .service-card {
   flex: 1;
-  background: var(--card-bg);
+  background: var(--color-beige-light);
   border-radius: 8px;
   padding: 10px 10px 25px 10px;
   text-align: center;
@@ -92,10 +80,67 @@
 .card-image {
   width: 100%;
   aspect-ratio: 1.35;
-  background: var(--image-bg);
+  background: var(--color-beige-dark);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 28px;
   color: #222;
+}
+
+/* ABOUT ME SECTION */
+.about-me-keywords {
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+/* FEEDBACK SECTION */
+.feedbacks-section {
+  padding: 30px 10%;
+  background-color: white;
+}
+
+.feedback-card {
+  min-height: 225px;
+  background: var(--color-beige);
+  border-radius: 8px;
+  padding: 35px 25px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback-card p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.feedback-card h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.feedbacks-section .slick-prev::before,
+.feedbacks-section .slick-next::before {
+  font-size: 20px;
+  color: #333;
+  opacity: 0.5;
+}
+
+.feedbacks-section .slick-slide {
+  padding: 0 10px; 
+}
+
+
+@media (max-width: 600px) {
+  .landing-page-section {
+    flex-direction: column;
+  }
+  .hero-image {
+    margin-bottom: 40px;
+  }
+  .about-me-image {
+    margin-top: 40px;
+  }
 }

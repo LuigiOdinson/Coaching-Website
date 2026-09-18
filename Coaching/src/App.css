@@ -6,12 +6,26 @@
 }
 
 :root {
-    --primary: #6d7181;
-    --primary-dark: #626675;
-    --light-bg: #f3f3f5;
-    --card-bg: #fafafa;
-    --image-bg: #dedede;
-    --text: #333;
+    --color-sage: #7a8b6f;
+    --color-sage-dark: #64735a;
+    --color-sage-light: #a8b89a;
+
+    --color-beige: #f6f3ec;
+    --color-beige-light: #fdfcf8;
+    --color-beige-dark: #e8e3d6;
+
+    --color-charcoal: #3a3f36;
+    --color-gray: #7d8377;
+    --color-gray-light: #e6e1d4;
+
+}
+
+body {
+    background-color: var(--light-bg);
+}
+
+p, h1, h2, h3, span {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
 }
 
 button {
