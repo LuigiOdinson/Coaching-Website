@@ -1,21 +1,23 @@
-.landing-page-section {
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* HERO */
+.hero-section {
   min-height: 315px;
-  background: var(--color-beige);
+  background: var(--color-beige-light);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 20%;
   padding: 40px 10%;
+  margin-top: 50px;
 }
 
-.section-title {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-/* HERO */
 .hero-image,
 .about-me-image {
   width: 190px;
@@ -53,6 +55,7 @@
   justify-content: center;
   font-size: 13px;
   direction: rtl;
+  cursor: pointer;
 }
 
 /* SERVICES */
@@ -62,10 +65,10 @@
   padding: 40px 10%;
 }
 
-.cards-container {
+.service-cards-container {
   display: flex;
   justify-content: space-between;
-  gap: 35px;
+  gap: 30px;
 }
 
 .service-card {
@@ -74,7 +77,15 @@
   border-radius: 8px;
   padding: 10px 10px 25px 10px;
   text-align: center;
-  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.service-card:hover {
+  box-shadow: none;
+  margin-top: 2px;
+  margin-left: 2px;
 }
 
 .card-image {
@@ -89,6 +100,17 @@
 }
 
 /* ABOUT ME SECTION */
+.about-me-section {
+  min-height: 315px;
+  background: var(--color-beige-light);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  padding: 40px 10%;
+}
+
 .about-me-keywords {
   font-size: 18px;
   margin-bottom: 22px;
@@ -118,7 +140,7 @@
 
 .feedback-card h3 {
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .feedbacks-section .slick-prev::before,
@@ -134,11 +156,16 @@
 
 
 @media (max-width: 600px) {
-  .landing-page-section {
+  .landing-page-section,
+  .hero-section,
+  .about-me-section {
     flex-direction: column;
   }
   .hero-image {
     margin-bottom: 40px;
+  }
+  .service-cards-container {
+    flex-direction: column;
   }
   .about-me-image {
     margin-top: 40px;

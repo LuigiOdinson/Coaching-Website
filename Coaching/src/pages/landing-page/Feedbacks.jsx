@@ -29,7 +29,7 @@ export default function Feedbacks() {
     <section className="feedbacks-section">
 
       <div className="section-title">
-        <h2>نظرات</h2>
+        <p>نظرات</p>
       </div>
 
       <div className="feedbacks-container">

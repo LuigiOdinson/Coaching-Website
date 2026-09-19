@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <section className="landing-page-section">
+    <section className="hero-section">
       <div className="hero-image">
         <span>عکس</span>
       </div>

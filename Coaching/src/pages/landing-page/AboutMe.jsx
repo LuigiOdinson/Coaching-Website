@@ -2,10 +2,11 @@ import React from 'react'
 
 export default function AboutMe() {
   return (
-    <section className="landing-page-section">
+    <section className="about-me-section">
 
       <div className="about-me-content">
         <div className="about-me-keywords">
+          <p>درباره من</p>
           <p>
             reprehenderit reprehenderit veniam
             anim laborum pariatur.
@@ -13,8 +14,7 @@ export default function AboutMe() {
         </div>
 
         <div className="about-me-button">
-          <span>10</span>
-          <p>دقیقه مشاوره رایگان</p>
+          <p>درباره من</p>
         </div>
       </div>
 

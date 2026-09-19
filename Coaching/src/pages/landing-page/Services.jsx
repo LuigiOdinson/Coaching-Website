@@ -5,10 +5,10 @@ export default function Services() {
     <section className="services-section">
 
       <div className="section-title">
-        <h2>سرویس‌ها</h2>
+        <p>سرویس‌ها</p>
       </div>
 
-      <div className="cards-container">
+      <div className="service-cards-container">
 
           <div className="service-card">
             <div className="card-image">
