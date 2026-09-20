@@ -1,37 +1,38 @@
 ** All services **
 GET /api/services
 
-[
-  {
-    "id": 1,
-    "title": "",
-    "description": "",
-    "type": "coaching",
-    "price": 100,
-    "image": "/images/.jpg"
+services:
+[{
+  "id": 1,
+  "title": "",
+  "description": "",
+  "type": "coaching",
+  "price": 100,
+  "image": "/images/.jpg"
   },
   {
-    "id": 2,
-    "title": "",
-    "description": "",
-    "type": "course",
-    "price": 79,
-    "image": "/images/.jpg"
+  "id": 2,
+  "title": "",
+  "description": "",
+  "type": "course",
+  "price": 79,
+  "image": "/images/.jpg"
   },
   {
-    "id": 3,
-    "title": "",
-    "description": "",
-    "type": "podcast",
-    "price": 0,
-    "image": "/images/.jpg"
-  }
-]
+  "id": 3,
+  "title": "",
+  "description": "",
+  "type": "podcast",
+  "price": 0,
+  "image": "/images/.jpg"
+}]
+
 
 ** Individual services **
 GET /api/services/:id
 
-coaching: (not complete)
+(ver1) (not complete)
+coaching: 
 {
   "id": 2,
   "type": "coaching",
@@ -40,6 +41,66 @@ coaching: (not complete)
   "price": 79,
   "image": "/images/leadership.jpg",
 }
+
+(ver2)
+coachingService:
+{
+  id: 1,
+  type: "coaching",
+  title: "جلسه مشاوره",
+  description: "جلسه مشاوره فردی",
+  durationMins: 60,
+
+  sessionTypes: [
+    {
+      id: 1,
+      type: "online",
+      title: "آنلاین",
+      price: 1000000
+    },
+    {
+      id: 2,
+      type: "in_person",
+      title: "حضوری",
+      price: 1500000
+    }
+  ]
+}
+
+GET /api/coaching/availability?month=2026-09
+(backend: existing bookings -> remove booked times -> return available times)
+availability = [
+  {
+    date: "2026-09-21",
+    startTimes: ["09:00", "10:00", "14:00"]
+  },
+  {
+    date: "2026-09-23",
+    startTimes: ["10:00", "11:00", "12:00"]
+  }
+]
+
+POST /api/coaching/bookings
+booking:
+{
+  sessionTypeId: 1,
+  sessions: [
+    {
+      date: "2026-09-21",
+      startTime: "10:00"
+    },
+    {
+      date: "2026-09-24",
+      startTime: "14:00"
+    },
+    {
+      date: "2026-09-28",
+      startTime: "11:00"
+    }
+  ]
+}
+
+___________________________________________
 
 courses:
 {
@@ -97,19 +158,20 @@ podcasts:
 GET /api/feedbacks
 
 feedbacks:
-{[
+[
   {
   "userId": "",
+  userName: "",
   "serviceId": "",
   "serviceType": "",
   "feedbackText": "",
   "stars": ""
-},
-{
-  "userId": "",
-  "serviceId": "",
-  "serviceType": "",
-  "feedbackText": "",
-  "stars": ""
-}
-]}
+  },
+  {
+    "userId": "",
+    "serviceId": "",
+    "serviceType": "",
+    "feedbackText": "",
+    "stars": ""
+  }
+]
