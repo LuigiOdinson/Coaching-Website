@@ -1,0 +1,16 @@
+.contact {
+    min-height: 245px;
+    background: var(--color-sage);
+    color: white;
+    text-align: center;
+    padding: 30px 7%;
+}
+
+.contact h2 {
+    font-size: 24px;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 30px auto;
+}

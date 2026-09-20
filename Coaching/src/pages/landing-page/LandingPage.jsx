@@ -7,6 +7,7 @@ import Hero from './Hero'
 import Services from './Services'
 import AboutMe from './AboutMe'
 import Feedbacks from './Feedbacks'
+import Footer from '../../components/Footer';
 
 export default function LandingPage() {
   return (
@@ -18,6 +19,7 @@ export default function LandingPage() {
       <Services/>
       <AboutMe/>
       <Feedbacks/>
+      <Footer/>
 
     </div>
   )

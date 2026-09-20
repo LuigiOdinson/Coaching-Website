@@ -2,13 +2,19 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 /* HERO */
 .hero-section {
+  /* background: var(--color-beige-light); */
+  background-image: url("/images/hero-banner.jfif");
+  background-size: cover;       
+  background-position: center;
+  background-repeat: no-repeat;
+
   min-height: 315px;
-  background: var(--color-beige-light);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -38,7 +44,7 @@
 
 .hero-key-words {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 22px;
 }
 
@@ -53,7 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
+  font-size: 15px;
   direction: rtl;
   cursor: pointer;
 }
@@ -119,12 +125,13 @@
 /* FEEDBACK SECTION */
 .feedbacks-section {
   padding: 30px 10%;
+  padding-bottom: 50px;
   background-color: white;
 }
 
 .feedback-card {
   min-height: 225px;
-  background: var(--color-beige);
+  background: var(--color-beige-light);
   border-radius: 8px;
   padding: 35px 25px 20px;
   text-align: center;
@@ -140,7 +147,7 @@
 
 .feedback-card h3 {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .feedbacks-section .slick-prev::before,
