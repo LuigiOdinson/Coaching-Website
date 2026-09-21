@@ -27,7 +27,7 @@ export default function Header() {
           <p>درباره من</p>
         </NavLink>
 
-        <NavLink to={"/"} className="header-link">
+        <NavLink to={"/services"} className="header-link">
           <p>سرویس‌ها</p>
         </NavLink>
 

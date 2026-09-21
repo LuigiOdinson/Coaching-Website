@@ -1,0 +1,142 @@
+.services-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+/* Filter Section*/
+.filter-tab {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--color-warm-gray-light);
+}
+
+.service-filter-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  padding: 4px 2px;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--color-charcoal);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.service-filter-button:hover {
+  color: var(--color-sage);
+}
+
+.service-filter-button.is-active {
+  border-bottom-color: var(--color-sage);
+  color: var(--color-charcoal);
+}
+
+.tab-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* Services Grid */
+.services-grid {
+  padding: 40px 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 28px;
+}
+
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .services-tabs {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+/* Card */
+.service-card {
+  flex: 1;
+  background: var(--color-beige-light);
+  border-radius: 8px;
+  padding: 10px 10px 25px 10px;
+  text-align: center;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.service-image {
+  aspect-ratio: 16 / 10;
+  background: lightgrey;
+}
+
+.service-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  
+  gap: 12px;
+  position: relative;
+}
+
+/* Tag pill */
+.service-tag {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: var(--color-beige-dark);
+  color: var(--color-charcoal);
+  font-size: 13px;
+  line-height: 1.6;
+  position: absolute;
+  right:0;
+}
+
+.service-title {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-charcoal);
+  direction: ltr;
+  text-align: right;
+}
+
+.service-desc {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--color-warm-gray);
+
+  text-align: right;
+}
+
+/* Price — pinned to bottom-left so all cards line up */
+.service-price {
+  margin-top: auto;
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-charcoal);
+  direction: rtl;
+}

@@ -10,7 +10,7 @@ export default function Services() {
 
       <div className="service-cards-container">
 
-          <div className="service-card">
+          <div className="service-card-landing">
             <div className="card-image">
               <span>عکس</span>
             </div>
@@ -18,7 +18,7 @@ export default function Services() {
             <p>پادکست</p>
           </div>
 
-          <div className="service-card">
+          <div className="service-card-landing">
             <div className="card-image">
               <span>عکس</span>
             </div>
@@ -26,7 +26,7 @@ export default function Services() {
             <p>دوره آنلاین</p>
           </div>
 
-          <div className="service-card">
+          <div className="service-card-landing">
             <div className="card-image">
               <span>عکس</span>
             </div>
