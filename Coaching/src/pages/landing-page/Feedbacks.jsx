@@ -1,28 +1,32 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 import Slider from "react-slick";
 import { feedbacks } from '../../mock/feedbacks';
 
+// Helper to get the right number of slides based on width
+function getSlidesToShow() {
+  const width = window.innerWidth;
+  if (width <= 600) return 1;
+  if (width <= 900) return 2;
+  return 3;
+}
+
 export default function Feedbacks() {
-  var settings = {
+
+  const [slidesToShow, setSlidesToShow] = useState(getSlidesToShow());
+
+  // resize listener
+  useEffect(() => {
+    const handleResize = () => setSlidesToShow(getSlidesToShow());
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
   };
 
   return (
