@@ -1,10 +1,10 @@
 export const services = [
   {
     id: 1,
-    title: "کوچینگ فردی",
+    title: "دوره جامع کوچینگ فردی",
     description:
       "جلسات کوچینگ شخصی‌سازی‌شده برای کمک به پیدا کردن مسیر، غلبه بر موانع و رسیدن به اهداف.",
-    type: "coaching",
+    type: "course",
     price: 100,
     image: "/images/life-coaching.jpg"
   },
@@ -28,11 +28,11 @@ export const services = [
   },
   {
     id: 4,
-    title: "کوچینگ مسیر شغلی",
+    title: "پادکست مسیر شغلی",
     description:
       "راهنمایی شخصی برای تصمیم‌گیری بهتر در مسیر شغلی و حرکت به سمت اهداف حرفه‌ای.",
-    type: "coaching",
-    price: 120,
+    type: "podcast",
+    price: 0,
     image: "/images/career-coaching.jpg"
   },
   {
