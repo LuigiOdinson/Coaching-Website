@@ -1,30 +1,34 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
 }
 
 :root {
-    --color-sage: #A2AF9B;
-    --color-sage-dark: #64735a;
-    --color-sage-light: #a8b89a;
+  --color-sage: #A2AF9B;
+  --color-sage-dark: #64735a;
+  --color-sage-light: #a8b89a;
 
-    --color-beige: #F7F4EA;
-    --color-beige-light: #EEEEEE;
-    --color-beige-dark: #d7d4cb;
+  --color-beige: #F7F4EA;
+  --color-beige-light: #EEEEEE;
+  --color-beige-dark: #d7d4cb;
 
-    --color-charcoal: #3a3f36;
-    --color-gray: #7d8377;
-    --color-gray-light: #e6e1d4;
+  --color-charcoal: #3a3f36;
+  --color-gray: #7d8377;
+  --color-gray-light: #c8c5bd;
 }
 
 body {
-    background-color: var(--light-bg);
+  background-color: var(--light-bg);
 }
 
-p, h1, h2, h3, span {
-    font-family: "Baloo Bhaijaan 2", sans-serif;
+p,
+h1,
+h2,
+h3,
+span {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
 }
 
 button {
