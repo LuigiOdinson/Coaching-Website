@@ -10,10 +10,11 @@
   --color-sage-dark: #64735a;
   --color-sage-light: #a8b89a;
 
-  --color-beige: #F7F4EA;
+  --color-beige: rgb(232, 229, 219);
   --color-beige-light: #EEEEEE;
   --color-beige-dark: #d7d4cb;
 
+  --color-bone: #f6f7f9;
   --color-charcoal: #3a3f36;
   --color-gray: #7d8377;
   --color-gray-light: #c8c5bd;
