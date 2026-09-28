@@ -1,4 +1,4 @@
-import React from 'react'
+import { useParams } from "react-router";
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import ServiceDetails from './ServiceDetails'
@@ -12,6 +12,11 @@ import {podcasts} from '../../mock/podcasts'
 const serviceData = courses[0];
 
 export default function SingleServicePage() {
+
+  const {serviceId} = useParams();
+  // sending requests to backend with serviceId 
+  // to get either courses or podcasts
+
   return (
     <div className="course-page">
       <title></title>

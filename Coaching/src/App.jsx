@@ -11,6 +11,7 @@ function App() {
     <Routes>
       <Route index element={<LandingPage />}/>
       <Route path='/services' element={<ServicesPage/>}/>
+      {/* <Route path='/services/serviceId' element={<SingleServicePage/>}/> */}
       <Route path='/service' element={<SingleServicePage/>}/>
     </Routes>
   )
