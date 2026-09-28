@@ -1,8 +1,6 @@
 import { useState } from 'react'
 
-export default function FilterSection() {
-
-  const [filter, setFilter] = useState("all");
+export default function FilterSection({filter, setFilter}) {
 
   return (
     <div className="filter-section">

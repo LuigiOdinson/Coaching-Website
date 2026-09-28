@@ -14,6 +14,8 @@ const serviceData = courses[0];
 export default function SingleServicePage() {
   return (
     <div className="course-page">
+      <title></title>
+
       <Header/>
       <ServiceDetails serviceData={serviceData}/>
       <ServiceContent serviceData={serviceData}/>
