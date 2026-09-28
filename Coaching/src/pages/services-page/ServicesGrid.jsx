@@ -9,7 +9,7 @@ export default function ServicesGrid() {
           <div class="service-card">
             <div class="service-image"></div>
             <div class="service-body">
-              <span class="service-tag">{service.type}</span>
+              <span class="service-tag">{service.typeFar}</span>
               <h3 class="service-title">{service.title}</h3>
               <p class="service-desc">{service.description}</p>
               <p class="service-price">{service.price}<span> تومان</span></p>

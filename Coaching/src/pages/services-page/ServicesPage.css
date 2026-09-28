@@ -7,6 +7,83 @@
   margin-bottom: 20px;
 }
 
+/* Coaching Card */
+.coaching-card {
+  margin-top: 50px;
+  padding: 40px 10%;
+}
+.coaching-feature {
+  margin-top: 50px;
+  display: flex;
+
+  padding: 30px 5%;
+  gap: 55px;
+  background: var(--color-beige-light);
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.coaching-feature-image {
+  width: 48%;
+  aspect-ratio: 4/2.5;
+  background: var(--color-gray-light);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coaching-feature-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.coaching-feature-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 16px;
+}
+
+.coaching-feature-body h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.reserve-coaching-button {
+  background: var(--color-sage);
+  color: white;
+  width: 190px;
+  height: 38px;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  direction: rtl;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .coaching-feature {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .coaching-feature-image {
+    width: 100%;
+  }
+  .reserve-coaching-button {
+    margin: 10px auto;
+  }
+}
+
 /* Filter Section*/
 .filter-tab {
   display: flex;
@@ -14,8 +91,6 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
   border-bottom: 1px solid var(--color-warm-gray-light);
 }
 
@@ -67,6 +142,7 @@
   .services-grid {
     grid-template-columns: 1fr;
   }
+
   .services-tabs {
     gap: 20px;
     flex-wrap: wrap;
@@ -94,7 +170,7 @@
   display: flex;
   flex-direction: column;
 
-  
+
   gap: 12px;
   position: relative;
 }
@@ -109,7 +185,7 @@
   font-size: 13px;
   line-height: 1.6;
   position: absolute;
-  right:0;
+  right: 0;
 }
 
 .service-title {
