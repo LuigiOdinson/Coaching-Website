@@ -39,6 +39,36 @@ export const podcasts = [
         durationMins: 45,
         publishedAt: "2026-09-14"
       }
+    ],
+
+    feedbacks: [
+      {
+        id: 1,
+        userId: 104,
+        firstName: "Hasti",
+        lastName: "",
+        feedbackText:
+          "گفت‌وگوها جذاب و موضوعات بسیار کاربردی بودند منتظر قسمت‌های بعدی هستم",
+        stars: 5
+      },
+      {
+        id: 2,
+        userId: 111,
+        firstName: "Amir",
+        lastName: "H",
+        feedbackText:
+          "قسمت مربوط به تعیین اهداف عالی بود. تونستم برنامه‌ی هفتگی خودم رو بر اساسش بازنویسی کنم.",
+        stars: 5
+      },
+      {
+        id: 3,
+        userId: 112,
+        firstName: "Leila",
+        lastName: "N",
+        feedbackText:
+          "کیفیت صدا و مهمان‌ها خوب بود، ولی بعضی قسمت‌ها یکم طولانی می‌شد.",
+        stars: 4
+      }
     ]
   },
 
@@ -72,6 +102,27 @@ export const podcasts = [
           "چگونه می‌توانیم نگاه متفاوتی نسبت به شکست و اشتباه داشته باشیم.",
         durationMins: 41,
         publishedAt: "2026-09-16"
+      }
+    ],
+
+    feedbacks: [
+      {
+        id: 1,
+        userId: 113,
+        firstName: "Kian",
+        lastName: "B",
+        feedbackText:
+          "قسمت ذهنیت رشد واقعاً بهم کمک کرد بفهمم چرا از چالش‌های جدید دوری می‌کردم.",
+        stars: 5
+      },
+      {
+        id: 2,
+        userId: 114,
+        firstName: "Shirin",
+        lastName: "",
+        feedbackText:
+          "موضوع خوبی رو انتخاب کردید ولی هنوز قسمت‌های کمی منتشر شده. منتظر ادامه‌اش هستم.",
+        stars: 4
       }
     ]
   }

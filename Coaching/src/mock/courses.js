@@ -44,6 +44,36 @@ export const courses = [
         durationMins: 35,
         publishedAt: "2026-09-11"
       }
+    ],
+
+    feedbacks: [
+      {
+        id: 1,
+        userId: 101,
+        firstName: "Sara",
+        lastName: "M",
+        feedbackText:
+          "این دوره واقعاً دید من نسبت به رهبری تیم رو تغییر داد. مخصوصاً بخش سبک‌های رهبری خیلی کاربردی بود.",
+        stars: 5
+      },
+      {
+        id: 2,
+        userId: 107,
+        firstName: "Ali",
+        lastName: "R",
+        feedbackText:
+          "محتوای دوره خوب بود، ولی دوست داشتم مثال‌های عملی بیشتری در بخش تصمیم‌گیری وجود داشت.",
+        stars: 4
+      },
+      {
+        id: 3,
+        userId: 108,
+        firstName: "Niloofar",
+        lastName: "K",
+        feedbackText:
+          "بهترین دوره‌ای که تا حالا در زمینه رهبری گذروندم. پیشنهاد می‌کنم به همه‌ی مدیرهای تیم.",
+        stars: 5
+      }
     ]
   },
 
@@ -83,6 +113,27 @@ export const courses = [
           "روش‌های عملی برای ایجاد عادت‌های جدید و حفظ آن‌ها در طول زمان.",
         durationMins: 31,
         publishedAt: "2026-09-13"
+      }
+    ],
+
+    feedbacks: [
+      {
+        id: 1,
+        userId: 109,
+        firstName: "Reza",
+        lastName: "T",
+        feedbackText:
+          "دوره‌ی خیلی خوبی بود برای شروع. تونستم بعد از مدت‌ها بالاخره عادت مطالعه‌ی روزانه رو بسازم.",
+        stars: 5
+      },
+      {
+        id: 2,
+        userId: 110,
+        firstName: "Mina",
+        lastName: "S",
+        feedbackText:
+          "محتوا مختصر و مفید بود، اما بعضی بخش‌ها می‌تونست عمیق‌تر باشه.",
+        stars: 3
       }
     ]
   }

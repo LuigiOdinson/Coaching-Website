@@ -1,7 +1,8 @@
 export const feedbacks = [
   {
     userId: 101,
-    userName: "Sara M",
+    firstName: "Sara",
+    lastName: "M",
     serviceId: 1,
     serviceType: "coaching",
     feedbackText:
@@ -10,7 +11,8 @@ export const feedbacks = [
   },
   {
     userId: 102,
-    userName: "Pouria Abbasi",
+    firstName: "Pouria",
+    lastName: "Abbasi",
     serviceId: 2,
     serviceType: "course",
     feedbackText:
@@ -19,7 +21,8 @@ export const feedbacks = [
   },
   {
     userId: 103,
-    userName: "Mobin",
+    firstName: "Mobin",
+    lastName: "f",
     serviceId: 2,
     serviceType: "course",
     feedbackText:
@@ -28,7 +31,8 @@ export const feedbacks = [
   },
   {
     userId: 104,
-    userName: "Hasti",
+    firstName: "Hasti",
+    lastName: "Hatami",
     serviceId: 3,
     serviceType: "podcast",
     feedbackText:
@@ -37,7 +41,8 @@ export const feedbacks = [
   },
   {
     userId: 105,
-    userName: "David",
+    firstName: "David",
+    lastName: "D",
     serviceId: 1,
     serviceType: "coaching",
     feedbackText:
@@ -46,7 +51,8 @@ export const feedbacks = [
   },
   {
     userId: 106,
-    userName: "Javad",
+    firstName: "Javad",
+    lastName: "Mohamadi",
     serviceId: 5,
     serviceType: "course",
     feedbackText:

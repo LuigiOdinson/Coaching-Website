@@ -51,28 +51,45 @@ GET /api/services/:id
         "durationMins":,
         "publishedAt": "2026-09-10",
       }
+    ],
+    feedbacks: [
+      {
+        id: 1,
+        userName: "Sara M",
+        feedbackText: "",
+        stars: 
+      },
     ]
   (if it's a podcast)
     {
-    "id": 3,
-    "type": "podcast",
-    "isDone": "true",
-    "title": "How to Build Better Habits",
-    "description": "A discussion about building sustainable habits.",
-    "price": 79,
-    "host": ""
-    "image": "/images/podcast.jpg",
-    "episodesCounts": 12,
-    "episodes": [
+      "id": 3,
+      "type": "podcast",
+      "isDone": "true",
+      "title": "How to Build Better Habits",
+      "description": "A discussion about building sustainable habits.",
+      "price": 79,
+      "host": ""
+      "image": "/images/podcast.jpg",
+      "episodesCounts": 12,
+      "episodes": [
+        {
+          "id":,
+          "title":,
+          "description":,
+          "durationMins":,
+          "publishedAt": "2026-09-10",
+        }
+      ],
+      feedbacks: [
       {
-        "id":,
-        "title":,
-        "description":,
-        "durationMins":,
-        "publishedAt": "2026-09-10",
-      }
-    ]}
+        id: 1,
+        userName: "Sara M",
+        feedbackText: "",
+        stars: 
+      },
+    ]
     }
+  }
 
 GET /api/coaching
   {
