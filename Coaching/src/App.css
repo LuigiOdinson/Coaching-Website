@@ -24,6 +24,11 @@ body {
   background-color: var(--light-bg);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 p,
 h1,
 h2,

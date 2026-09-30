@@ -16,6 +16,18 @@
   left: 30px;
 }
 
+.header-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
 .log-in-button {
   background-color: var(--color-sage);
   color: white;
@@ -54,7 +66,7 @@
 .hamburger-menu-icon {
   display: none;
   position: fixed;
-  right: 20px;
+  right: 30px;
   flex-direction: column;
   justify-content: center;
   gap: 6px;

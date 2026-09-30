@@ -130,12 +130,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px 28px;
-  text-decoration: none;
-}
-
-.services-grid a {
-  text-decoration: none;
-  color: inherit;
 }
 
 @media (max-width: 900px) {
