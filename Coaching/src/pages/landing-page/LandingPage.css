@@ -128,7 +128,7 @@
   background-color: white;
 }
 
-.feedback-card {
+.landingpage-feedback-card {
   min-height: 225px;
   background: var(--color-beige-light);
   border-radius: 8px;
@@ -139,12 +139,12 @@
   justify-content: space-between;
 }
 
-.feedback-card p {
+.landingpage-feedback-card p {
   font-size: 15px;
   line-height: 2;
 }
 
-.feedback-card h3 {
+.landingpage-feedback-card h3 {
   font-size: 15px;
   font-weight: 500;
 }

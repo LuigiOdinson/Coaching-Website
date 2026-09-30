@@ -41,7 +41,7 @@ export default function Feedbacks() {
         {feedbacks.map((feedback) => {
           return (
             <div>
-              <div className="feedback-card">
+              <div className="landingpage-feedback-card">
                 <p>
                   {feedback.feedbackText}
                 </p>
