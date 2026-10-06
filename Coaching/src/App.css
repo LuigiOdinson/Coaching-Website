@@ -33,7 +33,8 @@ p,
 h1,
 h2,
 h3,
-span {
+span,
+form {
   font-family: "Baloo Bhaijaan 2", sans-serif;
 }
 

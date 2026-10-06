@@ -54,7 +54,7 @@ export const courses = [
         lastName: "M",
         feedbackText:
           "این دوره واقعاً دید من نسبت به رهبری تیم رو تغییر داد. مخصوصاً بخش سبک‌های رهبری خیلی کاربردی بود.",
-        stars: 5
+        stars: 3
       },
       {
         id: 2,

@@ -49,7 +49,7 @@ export const podcasts = [
         lastName: "",
         feedbackText:
           "گفت‌وگوها جذاب و موضوعات بسیار کاربردی بودند منتظر قسمت‌های بعدی هستم",
-        stars: 5
+        stars: 3
       },
       {
         id: 2,

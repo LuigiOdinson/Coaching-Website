@@ -6,11 +6,13 @@ const fakeUser = {
   firstName: "علی",
   lastName: "محمدی",
   phoneNumber: "09121234567",
+  // for front-end testing
+  hasBoughtService: true
 };
 
 export default function UserProvider({ children }) {
 
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(fakeUser);
   const [loading, setLoading] = useState(false);
 
   // when using real async function with backend

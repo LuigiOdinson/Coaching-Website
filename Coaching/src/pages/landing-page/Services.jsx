@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default function Services() {
   return (
@@ -11,25 +12,25 @@ export default function Services() {
       <div className="service-cards-container">
 
           <div className="service-card-landing">
-            <div className="card-image">
+            <Link to={'/services'} className="card-image">
               <span>عکس</span>
-            </div>
+            </Link>
 
             <p>پادکست</p>
           </div>
 
           <div className="service-card-landing">
-            <div className="card-image">
+            <Link to={'/services'} className="card-image">
               <span>عکس</span>
-            </div>
+            </Link>
 
             <p>دوره آنلاین</p>
           </div>
 
           <div className="service-card-landing">
-            <div className="card-image">
+            <Link to={'/services'} className="card-image">
               <span>عکس</span>
-            </div>
+            </Link>
 
             <p>کوچینگ</p>
           </div>
