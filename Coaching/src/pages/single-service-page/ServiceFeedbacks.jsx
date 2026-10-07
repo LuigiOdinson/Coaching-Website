@@ -49,7 +49,7 @@ export default function ServiceFeedbacks({ serviceFeedbacks }) {
             <div key={feedback.id} className="service-feedback-card">
               <div className="service-feedback-header">
                 <span className="feedback-name">
-                  <span>{feedback.firstName}</span>
+                  <span>{feedback.firstName} </span>
                   <span>{feedback.lastName}</span>
                 </span>
 

@@ -2,7 +2,7 @@ export const courses = [
   {
     id: 2,
     type: "course",
-    isDone: true,
+    inProduction: true,
     title: "دوره جامع رهبری",
     description:
       "در این دوره با اصول رهبری مؤثر آشنا می‌شوید و مهارت‌های لازم برای هدایت بهتر یک تیم را یاد می‌گیرید.",
@@ -18,7 +18,8 @@ export const courses = [
         description:
           "آشنایی با مفاهیم پایه رهبری و تفاوت میان مدیر و رهبر.",
         durationMins: 18,
-        publishedAt: "2026-09-10"
+        publishedAt: "2026-09-10",
+        status: "done"
       },
       {
         id: 2,
@@ -26,7 +27,8 @@ export const courses = [
         description:
           "بررسی سبک‌های مختلف رهبری و زمان مناسب استفاده از هرکدام.",
         durationMins: 32,
-        publishedAt: "2026-09-10"
+        publishedAt: "2026-09-10",
+        status: "done"
       },
       {
         id: 3,
@@ -34,7 +36,8 @@ export const courses = [
         description:
           "چگونه بهتر گوش کنیم، بازخورد بدهیم و با اعضای تیم ارتباط مؤثرتری داشته باشیم.",
         durationMins: 27,
-        publishedAt: "2026-09-11"
+        publishedAt: "",
+        status: "in-production"
       },
       {
         id: 4,
@@ -42,7 +45,8 @@ export const courses = [
         description:
           "روش‌هایی برای گرفتن تصمیم‌های بهتر در شرایط پیچیده و پرفشار.",
         durationMins: 35,
-        publishedAt: "2026-09-11"
+        publishedAt: "",
+        status: "in-production"
       }
     ],
 
@@ -80,7 +84,7 @@ export const courses = [
   {
     id: 5,
     type: "course",
-    isDone: false,
+    inProduction: false,
     title: "ساختن عادت‌های بهتر",
     description:
       "دوره‌ای کاربردی برای شناخت عادت‌ها و ایجاد تغییرات پایدار در زندگی روزمره.",
@@ -96,7 +100,8 @@ export const courses = [
         description:
           "بررسی نحوه شکل‌گیری عادت‌ها و عواملی که باعث تکرار رفتارها می‌شوند.",
         durationMins: 22,
-        publishedAt: "2026-09-12"
+        publishedAt: "2026-09-12",
+        status: "done"
       },
       {
         id: 2,
@@ -104,7 +109,8 @@ export const courses = [
         description:
           "چگونه عادت‌هایی را که مانع پیشرفت ما می‌شوند شناسایی کنیم.",
         durationMins: 25,
-        publishedAt: "2026-09-12"
+        publishedAt: "2026-09-12",
+        status: "done"
       },
       {
         id: 3,
@@ -112,7 +118,8 @@ export const courses = [
         description:
           "روش‌های عملی برای ایجاد عادت‌های جدید و حفظ آن‌ها در طول زمان.",
         durationMins: 31,
-        publishedAt: "2026-09-13"
+        publishedAt: "2026-09-13",
+        status: "done"
       }
     ],
 

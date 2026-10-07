@@ -82,7 +82,7 @@ export default function ServiceDetails({serviceData}) {
         </div>
 
         <button className="enroll-button">
-          <p>ثبت نام</p>
+          <p>خرید</p>
         </button>
 
       </div>

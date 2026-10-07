@@ -2,7 +2,7 @@ export const podcasts = [
   {
     id: 3,
     type: "podcast",
-    isDone: true,
+    inProduction: true,
     title: "پادکست رشد و توسعه فردی",
     description:
       "گفت‌وگوهایی درباره رشد فردی، ذهنیت، عادت‌ها و ساختن آینده‌ای بهتر.",
@@ -75,7 +75,7 @@ export const podcasts = [
   {
     id: 6,
     type: "podcast",
-    isDone: false,
+    inProduction: false,
     title: "ذهنیت مهم است",
     description:
       "گفت‌وگوهایی درباره ذهنیت، انگیزه، اعتمادبه‌نفس و رشد فردی.",

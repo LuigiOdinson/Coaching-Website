@@ -29,7 +29,7 @@ GET /api/services/:id
     {
     "id": 2,
     "type": "course",
-    "isDone": "false",
+    "inProduction": "false",
     "title": "Leadership Masterclass",
     "description": "Learn the fundamentals of effective leadership.",
     "price": 79,
@@ -43,13 +43,15 @@ GET /api/services/:id
         "description":,
         "durationMins":,
         "publishedAt": "2026-09-10",
+        "status": "done"
       },
       {
         "id":,
         "title":,
         "description":,
         "durationMins":,
-        "publishedAt": "2026-09-10",
+        "publishedAt": "",
+        "status": "in-production"
       }
     ],
     feedbacks: [
@@ -64,7 +66,7 @@ GET /api/services/:id
     {
       "id": 3,
       "type": "podcast",
-      "isDone": "true",
+      "inProduction": "true",
       "title": "How to Build Better Habits",
       "description": "A discussion about building sustainable habits.",
       "price": 79,
@@ -78,6 +80,7 @@ GET /api/services/:id
           "description":,
           "durationMins":,
           "publishedAt": "2026-09-10",
+          "status": "done"
         }
       ],
       feedbacks: [
@@ -89,6 +92,27 @@ GET /api/services/:id
       },
     ]
     }
+  }
+
+GET /api/services/myServices
+  {
+    "courses": [
+      {
+        "service_id": 1,
+        "title":
+      },
+      {
+        "service_id": 1,
+        "title":
+      }
+    ],
+    "podcasts": [
+      {
+        "service_id": 1,
+        "title":
+      }
+    ],
+    "bookings":
   }
 
 GET /api/coaching

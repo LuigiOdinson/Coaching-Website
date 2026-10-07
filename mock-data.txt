@@ -106,7 +106,7 @@ courses:
 {
   "id": 2,
   "type": "course",
-  "isDone": "false",
+  "inProduction": "false",
   "title": "Leadership Masterclass",
   "description": "Learn the fundamentals of effective leadership.",
   "price": 79,
@@ -135,7 +135,7 @@ podcasts:
 {
   "id": 3,
   "type": "podcast",
-  "isDone": "true",
+  "inProduction": "true",
   "title": "How to Build Better Habits",
   "description": "A discussion about building sustainable habits.",
   "price": 79,
