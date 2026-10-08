@@ -1,0 +1,53 @@
+/* USER ACCOUNT */
+
+.user-account {
+  background: var(--color-beige-light);
+  gap: 24px;
+  padding: 40px 10%;
+  margin-top: 50px;
+}
+
+.user-account .section-title {
+  justify-content: end;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.user-row {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-direction: row-reverse;
+  text-align: right;
+  padding: 0px 20px;
+}
+
+.user-name {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.user-contact {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  color: var(--color-gray);
+  font-size: 15px;
+}
+
+.user-avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4a4a4a;
+  flex-shrink: 0;
+}
+
+.user-avatar svg { width: 38px; height: 38px; }
+
+/* MY COURSES */
