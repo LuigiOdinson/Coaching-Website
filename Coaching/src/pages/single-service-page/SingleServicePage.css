@@ -102,7 +102,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-sage);
+  background: var(--color-sage-dark);
   color: white;
   border: none;
   padding: 5px 20px;
@@ -113,7 +113,7 @@
 }
 
 .enroll-button:hover {
-  background: var(--color-sage-dark);
+  background: var(--color-gold);
   color: white;
 }
 
@@ -161,7 +161,7 @@
   flex-shrink: 0;
   border-radius: 50%;
   background: var(--color-beige);
-  color: var(--color-gray);
+  color: var(--color-sage-dark);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -242,7 +242,8 @@
 .submit-feedback-section {
   max-width: 1000px;
   margin: 0 auto 40px;
-  background-color: var(--color-beige-light);
+  background-color: var(--color-bone);
+  border: 1px solid var(--color-gray-light);
   border-radius: 6px;
   padding: 25px 30px;
   direction: rtl;
@@ -270,13 +271,14 @@
   font-size: 16px;
   font-family: inherit;
   color: var(--color-charcoal);
+  border: 1px solid var(--color-gray-light);
   outline: none;
   transition: 0.2s;
 }
 
 .feedback-submit-button {
   align-self: center;
-  background: var(--color-sage);
+  background: var(--color-sage-dark);
   color: white;
   border: none;
   padding: 5px 20px;
@@ -287,7 +289,7 @@
 }
 
 .feedback-submit-button:hover {
-  background: var(--color-sage-dark);
+  background: var(--color-gold);
 }
 
 .feedback-submit-rating {
