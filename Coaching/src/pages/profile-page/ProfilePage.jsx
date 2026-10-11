@@ -2,6 +2,7 @@ import {useContext} from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import UserAccount from './UserAccount.jsx'
+import MyCourses from './MyCourses.jsx'
 import "./ProfilePage.css"
 
 export default function ProfilePage() {
@@ -11,6 +12,7 @@ export default function ProfilePage() {
 
       <Header />
       <UserAccount />
+      <MyCourses />
       <Footer />
     </div>
   )

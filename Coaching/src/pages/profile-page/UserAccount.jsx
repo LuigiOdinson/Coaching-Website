@@ -6,12 +6,12 @@ export default function UserAccount() {
 
   return (
     <div className="user-account">
-        <h1 class="section-title">حساب کاربری من</h1>
+        <h1 className="section-title">حساب کاربری من</h1>
 
-        <div class="user-row">
+        <div className="user-row">
 
-          <div class="user-avatar">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <div className="user-avatar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
               <circle cx="12" cy="9" r="3.5" />
               <path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6" />
             </svg>
@@ -22,7 +22,7 @@ export default function UserAccount() {
               <span>{user.firstName} </span>
               <span>{user.lastName}</span>
             </div>
-            <div class="user-contact">
+            <div className="user-contact">
               <span>sara.ahmadi@gmail.com</span>
               <span>{user.phoneNumber}</span>
             </div>

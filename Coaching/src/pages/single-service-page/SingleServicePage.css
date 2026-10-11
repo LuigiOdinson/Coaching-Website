@@ -82,7 +82,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-beige-dark);
+  background: var(--color-beige);
   border-radius: 50%;
 }
 
@@ -109,7 +109,7 @@
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.5s ease;
 }
 
 .enroll-button:hover {
@@ -285,7 +285,7 @@
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.5s ease;
 }
 
 .feedback-submit-button:hover {
