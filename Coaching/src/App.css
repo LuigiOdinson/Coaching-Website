@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, serif;
+  font-family: "Vazirmatn", "Baloo Bhaijaan 2", sans-serif;
 }
 
 :root {
@@ -21,25 +21,7 @@
   --color-gold: #C7A86D;
 }
 
-body {
-  background-color: var(--light-bg);
-}
-
 a {
   text-decoration: none;
   color: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-span,
-form,
-button {
-  font-family: "Vazirmatn", "Baloo Bhaijaan 2", sans-serif;
-}
-
-button {
-    direction: rtl;
 }

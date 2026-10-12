@@ -1,19 +1,12 @@
 import { useEffect, useState } from 'react'
+import useLoadNumber from '../../hooks/useLoadNumber';
 
 export default function ServiceContent({ serviceData }) {
   var items = serviceData.type === 'course'
     ? serviceData.lessons
     : serviceData.episodes;
 
-  const [loadNumber, setLoadNumber] = useState(3);
-
-  const moreButtonClicked = () => {
-    if (loadNumber > 3) {
-      setLoadNumber(3);
-    } else {
-      setLoadNumber(items.length);
-    }
-  }
+  const {loadNumber, toggle} = useLoadNumber(3, items.length);
 
   return (
     <section className="lessons-section">
@@ -47,7 +40,7 @@ export default function ServiceContent({ serviceData }) {
       </div>
 
       {loadNumber === 3 && items.length > 3 &&
-        <button onClick={moreButtonClicked} className="show-more">
+        <button onClick={toggle} className="show-more">
           <p>بیشتر</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
             <title>chevron-down</title><path fill="currentColor" d="M16 22L6 12l1.4-1.4l8.6 8.6l8.6-8.6L26 12z" />
@@ -56,7 +49,7 @@ export default function ServiceContent({ serviceData }) {
       }
 
       {loadNumber > 3 &&
-        <button onClick={moreButtonClicked} className="show-more">
+        <button onClick={toggle} className="show-more">
           <p>کمتر</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
             <title>chevron-up</title><path fill="currentColor" d="m16 10l10 10l-1.4 1.4l-8.6-8.6l-8.6 8.6L6 20z" />
