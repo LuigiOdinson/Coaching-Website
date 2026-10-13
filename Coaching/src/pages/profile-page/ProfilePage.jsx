@@ -2,7 +2,7 @@ import {useContext} from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import UserAccount from './UserAccount.jsx'
-import MyCourses from './MyCourses.jsx'
+import MyServices from './MyServices.jsx'
 
 import { myServices } from '../../mock/myServices.js'
 import "./ProfilePage.css"
@@ -14,7 +14,8 @@ export default function ProfilePage() {
 
       <Header />
       <UserAccount />
-      <MyCourses myCourses={myServices.courses}/>
+      <MyServices myServices={myServices.courses} type="course"/>
+      <MyServices myServices={myServices.podcasts} type="podcast"/>
       <Footer />
     </div>
   )

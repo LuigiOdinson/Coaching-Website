@@ -7,6 +7,18 @@ export const myServices = {
     {
       "serviceId": 4,
       "title": "مبانی برنامه‌ریزی استراتژیک"
+    },
+    {
+      "serviceId": 5,
+      "title": "مبانی برنامه‌ریزی استراتژیک"
+    },
+    {
+      "serviceId": 6,
+      "title": "مبانی برنامه‌ریزی استراتژیک"
+    },
+    {
+      "serviceId": 7,
+      "title": "مبانی برنامه‌ریزی استراتژیک"
     }
   ],
   "podcasts": [
