@@ -32,7 +32,7 @@ export default function ServiceFeedbacks({ serviceFeedbacks }) {
               ))}
             </div>
 
-            <button className="feedback-submit-button">
+            <button className="button feedback-submit-button">
               <p>ارسال نظر</p>
             </button>
           </form>

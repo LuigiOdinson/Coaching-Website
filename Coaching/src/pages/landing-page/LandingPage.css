@@ -50,8 +50,6 @@
 
 .hero-button,
 .about-me-button {
-  background: var(--color-sage-dark);
-  color: white;
   width: 190px;
   height: 38px;
   border-radius: 25px;
@@ -61,7 +59,6 @@
   justify-content: center;
   font-size: 15px;
   direction: rtl;
-  cursor: pointer;
 }
 
 /* SERVICES */

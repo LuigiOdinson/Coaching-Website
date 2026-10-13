@@ -102,19 +102,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-sage-dark);
-  color: white;
-  border: none;
   padding: 5px 20px;
   border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-
-.enroll-button:hover {
-  background: var(--color-gold);
-  color: white;
 }
 
 
@@ -278,18 +268,9 @@
 
 .feedback-submit-button {
   align-self: center;
-  background: var(--color-sage-dark);
-  color: white;
-  border: none;
   padding: 5px 20px;
   border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-
-.feedback-submit-button:hover {
-  background: var(--color-gold);
 }
 
 .feedback-submit-rating {

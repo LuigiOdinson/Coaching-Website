@@ -13,7 +13,7 @@ export default function AboutMe() {
           </p>
         </div>
 
-        <div className="about-me-button">
+        <div className="button about-me-button">
           <p>درباره من</p>
         </div>
       </div>

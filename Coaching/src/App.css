@@ -25,3 +25,15 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.button {
+  background: var(--color-sage-dark);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.button:hover {
+  background: var(--color-gold);
+}

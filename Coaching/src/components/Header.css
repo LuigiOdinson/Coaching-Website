@@ -29,12 +29,8 @@
 }
 
 .log-in-button {
-  background-color: var(--color-sage-dark);
-  color: white;
-  border: none;
   border-radius: 4px;
   padding: 2px 10px;
-  cursor: pointer;
 }
 
 .header-nav {

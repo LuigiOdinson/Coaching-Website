@@ -26,7 +26,7 @@ export default function Header() {
               </div>
             </NavLink> 
 
-          : <button className="log-in-button">ورود به حساب</button>
+          : <button className="button log-in-button">ورود به حساب</button>
         }
         
       </div>

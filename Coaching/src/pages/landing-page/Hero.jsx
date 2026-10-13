@@ -18,7 +18,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="hero-button">
+        <div className="button hero-button">
           <span>10</span>
           <p>دقیقه مشاوره رایگان</p>
         </div>

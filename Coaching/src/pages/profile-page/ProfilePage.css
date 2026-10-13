@@ -93,18 +93,9 @@
 }
 
 .profile-service-card-button {
-  background-color: var(--color-sage-dark);
-  color: white;
-  border: none;
   width: 35%;
   border-radius: 4px;
   padding: 2px 10px;
-  cursor: pointer;
-  transition: 0.7s ease;
-}
-
-.profile-service-card-button:hover {
-  background-color: var(--color-gold);
 }
 
 /* MY COURSES */

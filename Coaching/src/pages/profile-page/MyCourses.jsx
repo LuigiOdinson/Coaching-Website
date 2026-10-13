@@ -18,7 +18,7 @@ export default function MyCourses({myCourses}) {
             </div>
             <div className="profile-service-card-bottom-row">
               <h3 className="profile-service-card-title">{course.title}</h3>
-              <button className="profile-service-card-button">ادامه یادگیری</button>
+              <button className="button profile-service-card-button">ادامه یادگیری</button>
             </div>
           </div>
         ))}
