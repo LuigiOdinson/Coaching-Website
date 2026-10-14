@@ -59,6 +59,7 @@
 .profile-service-card {
   background: var(--color-beige-light);
   border-radius: 10px;
+  border: 0.5px solid var(--color-gray-light);
   padding: 20px 25px;
   display: flex;
   flex-direction: column;
@@ -111,4 +112,99 @@
   max-width: 1000px;
   gap: 18px;
   direction: rtl;
+}
+
+/* COACHING SCHEDULE */
+.schedule-section {
+  direction: rtl;
+  padding: 40px 10%;
+  margin: 0 auto;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .schedule-grid {
+    grid-template-columns: repeat(2, 1fr);;
+  }
+}
+
+@media (max-width: 700px) {
+  .schedule-grid {
+    grid-template-columns: repeat(1, 1fr);;
+  }
+}
+
+.schedule-card {
+  background: #fff;
+  border: 1px solid var(--color-gray-light);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.schedule-card-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--color-gray-light);
+  text-align: center;
+}
+
+.schedule-date {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-charcoal);
+}
+
+.schedule-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-row {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px 24px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.schedule-row:hover {
+  background-color: #f0f0f0;
+}
+
+.schedule-time {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-charcoal);
+}
+
+.tag {
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 20px;
+  border-radius: 8px;
+  min-width: 78px;
+}
+
+.tag-blue {
+  background: #e3efff;
+  color: #1e6fd9;
+}
+
+.tag-green {
+  background: #e0f2e5;
+  color: #2f9e57;
+}
+
+.tag-yellow {
+  background: #fdf1dd;
+  color: #c98a24;
 }
