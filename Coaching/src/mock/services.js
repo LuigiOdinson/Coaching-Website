@@ -5,7 +5,6 @@ export const services = [
     description:
       "جلسات کوچینگ شخصی‌سازی‌شده برای کمک به پیدا کردن مسیر، غلبه بر موانع و رسیدن به اهداف.",
     type: "course",
-    typeFar: "دوره",
     price: 100,
     image: "/images/life-coaching.jpg"
   },
@@ -15,7 +14,6 @@ export const services = [
     description:
       "با اصول رهبری مؤثر آشنا شوید و مهارت‌های لازم برای رهبری با اعتمادبه‌نفس را توسعه دهید.",
     type: "course",
-    typeFar: "دوره",
     price: 79,
     image: "/images/leadership.jpg"
   },
@@ -25,7 +23,6 @@ export const services = [
     description:
       "گفت‌وگوهایی درباره رشد فردی، ذهنیت، عادت‌ها و ساختن آینده‌ای بهتر.",
     type: "podcast",
-    typeFar: "پادکست",
     price: 0,
     image: "/images/podcast.jpg"
   },
@@ -35,7 +32,6 @@ export const services = [
     description:
       "راهنمایی شخصی برای تصمیم‌گیری بهتر در مسیر شغلی و حرکت به سمت اهداف حرفه‌ای.",
     type: "podcast",
-    typeFar: "پادکست",
     price: 0,
     image: "/images/career-coaching.jpg"
   },
@@ -45,7 +41,6 @@ export const services = [
     description:
       "دوره‌ای کاربردی برای ایجاد عادت‌های پایدار و ایجاد تغییرات مثبت و ماندگار در زندگی روزمره.",
     type: "course",
-    typeFar: "دوره",
     price: 59,
     image: "/images/habits.jpg"
   },
@@ -55,7 +50,6 @@ export const services = [
     description:
       "گفت‌وگوهایی درباره ذهنیت، انگیزه، اعتمادبه‌نفس و رشد فردی.",
     type: "podcast",
-    typeFar: "پادکست",
     price: 0,
     image: "/images/mindset-podcast.jpg"
   }

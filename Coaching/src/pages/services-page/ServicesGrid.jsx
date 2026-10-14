@@ -2,6 +2,10 @@ import { Link } from 'react-router'
 import { services } from '../../mock/services'
 
 export default function ServicesGrid({ filter }) {
+  const far_service_type = {
+    "course": "دوره",
+    "podcast": "پادکست"
+  }
 
   const filteredServices = (filter === "all")
     ? services
@@ -16,7 +20,7 @@ export default function ServicesGrid({ filter }) {
             <div className="service-card">
               <div className="service-image"></div>
               <div className="service-body">
-                <span className="service-tag">{service.typeFar}</span>
+                <span className="service-tag">{far_service_type[service.type]}</span>
                 <h3 className="service-title">{service.title}</h3>
                 <p className="service-desc">{service.description}</p>
                 <p className="service-price">{service.price}<span> تومان</span></p>

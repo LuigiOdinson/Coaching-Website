@@ -116,15 +116,15 @@ GET /api/users/me/services
       {
         date: "2026-09-21",
         slots: [
-          { "startTime": "09:00", "sessionType": "online" },
-          { "startTime": "09:00", "sessionType": "online" }
+          { "startTime": "09:00", "endTime": "10:00", "sessionType": "online" },
+          { "startTime": "09:00", "endTime": "10:00", "sessionType": "online" }
         ]
       },
       {
         date: "2026-09-21",
         slots: [
-          { "startTime": "09:00", "sessionType": "online" },
-          { "startTime": "09:00", "sessionType": "online" }
+          { "startTime": "09:00", "endTime": "10:00", "sessionType": "online" },
+          { "startTime": "09:00", "endTime": "10:00", "sessionType": "online" }
         ]
       }
     ]
