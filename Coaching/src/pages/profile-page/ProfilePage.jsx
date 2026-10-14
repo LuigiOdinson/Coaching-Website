@@ -17,7 +17,7 @@ export default function ProfilePage() {
       <UserAccount />
       <MyServices myServices={myServices.courses} type="course"/>
       <MyServices myServices={myServices.podcasts} type="podcast"/>
-      <MyBookingSchedule />
+      <MyBookingSchedule myBookings={myServices.bookings}/>
       <Footer />
     </div>
   )

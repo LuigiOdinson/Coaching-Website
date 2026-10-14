@@ -144,6 +144,7 @@
   border: 1px solid var(--color-gray-light);
   border-radius: 14px;
   overflow: hidden;
+  max-width: 300px;
 }
 
 .schedule-card-header {
@@ -180,31 +181,20 @@
 
 .schedule-time {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
+  direction: ltr;
   color: var(--color-charcoal);
 }
 
 .tag {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
-  padding: 6px 20px;
-  border-radius: 8px;
-  min-width: 78px;
-}
-
-.tag-blue {
-  background: #e3efff;
-  color: #1e6fd9;
-}
-
-.tag-green {
-  background: #e0f2e5;
-  color: #2f9e57;
-}
-
-.tag-yellow {
-  background: #fdf1dd;
-  color: #c98a24;
+  padding: 5px 5px;
+  border-radius: 15px;
+  min-width: 60px;
+  background: var(--color-sage-light);
+  color: var(--color-sage-dark);
 }
