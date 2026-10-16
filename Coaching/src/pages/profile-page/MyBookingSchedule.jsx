@@ -7,6 +7,16 @@ export default function MyBookingSchedule({ myBookings }) {
     "freeSession": "رایگان"
   }
 
+  const hasOnlineOrFree = myBookings.some((booking) =>
+    booking.slots.some((slot) => (slot.sessionType === "online") || (slot.sessionType === "freeSession"))
+  );
+  const hasInPerson = myBookings.some((booking) =>
+    booking.slots.some((slot) => slot.sessionType === "inPerson")
+  );
+
+  const onlineLink = "https://meet.google.com/xxx-yyyy-zzz";
+  const inPersonAddress = "زنجان، خیابان --، پلاک ۱۲";
+
   const formatPersianDate = (isoDate) => {
     const date = new Date(isoDate);
     return new Intl.DateTimeFormat("fa-IR", {
@@ -19,21 +29,27 @@ export default function MyBookingSchedule({ myBookings }) {
 
   return (
     <div className="my-booking-schedule">
-      <section class="schedule-section">
-        <h2 class="section-title">برنامه جلسات کوچینگ</h2>
+      <section className="schedule-section">
+        <h2 className="section-title">برنامه جلسات کوچینگ</h2>
 
-        <div class="schedule-grid">
+        {myBookings.length === 0 &&
+          <div className='section-title' style={{ "font-weight": "300", "font-size": "16px" }}>
+            <p>شما جلسه‌ای رزرو نکردید</p>
+          </div>
+        }
+
+        <div className="schedule-grid">
           {myBookings.map((booking) => (
-            <div class="schedule-card">
-              <div class="schedule-card-header">
-                <span class="schedule-date">{formatPersianDate(booking.date)}</span>
+            <div className="schedule-card">
+              <div className="schedule-card-header">
+                <span className="schedule-date">{formatPersianDate(booking.date)}</span>
               </div>
 
-              <div class="schedule-card-body">
+              <div className="schedule-card-body">
                 {booking.slots.map((slot) => (
-                  <div class="schedule-row">
-                    <span class="tag">{far_session_type_tag[slot.sessionType]}</span>
-                    <span class="schedule-time">{slot.startTime} - {slot.endTime}</span>
+                  <div className="schedule-row">
+                    <span className="tag">{far_session_type_tag[slot.sessionType]}</span>
+                    <span className="schedule-time">{slot.startTime} - {slot.endTime}</span>
                   </div>
                 ))}
               </div>
@@ -42,6 +58,26 @@ export default function MyBookingSchedule({ myBookings }) {
           ))}
 
         </div>
+
+        {(hasOnlineOrFree || hasInPerson) && (
+          <div className="schedule-notice">
+            <h3 className="schedule-notice-title">مكان برگزاری جلسات</h3>
+
+            {hasOnlineOrFree && (
+              <div className="schedule-notice-item">
+                <span className="schedule-notice-label">جلسات آنلاین:</span>
+                <a href={onlineLink} className="schedule-notice-link">لینک میت گوگل</a>
+              </div>
+            )}
+            {hasInPerson && (
+              <div className="schedule-notice-item">
+                <span className="schedule-notice-label">جلسات حضوری:</span>
+                <span className="schedule-notice-value">{inPersonAddress}</span>
+              </div>
+            )}
+
+          </div>
+        )}
       </section>
     </div>
   )

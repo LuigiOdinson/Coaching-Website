@@ -114,6 +114,12 @@
   direction: rtl;
 }
 
+@media (max-width: 700px) {
+  .my-services-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));;
+  }
+}
+
 /* COACHING SCHEDULE */
 .schedule-section {
   direction: rtl;
@@ -148,7 +154,7 @@
 }
 
 .schedule-card-header {
-  padding: 20px 24px;
+  padding: 13px;
   border-bottom: 1px solid var(--color-gray-light);
   text-align: center;
 }
@@ -197,4 +203,48 @@
   min-width: 60px;
   background: var(--color-sage-light);
   color: var(--color-sage-dark);
+}
+
+.schedule-notice {
+  margin-top: 50px;
+  padding: 24px;
+  background: var(--color-bone);
+  border: 1px solid var(--color-gray-light);
+}
+
+.schedule-notice-title {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-charcoal);
+  text-align: right;
+}
+
+.schedule-notice-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: var(--color-charcoal);
+}
+
+.schedule-notice-label {
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.schedule-notice-value,
+.schedule-notice-link {
+  word-break: break-all;
+}
+
+.schedule-notice-link {
+  color: var(--color-sage-dark);
+  text-decoration: underline;
+}
+
+.schedule-notice-link:hover {
+  color: var(--color-gold);
 }
