@@ -7,10 +7,13 @@ import ProfilePage from './pages/profile-page/ProfilePage'
 import UserProvider from './providers/UserProvider'
 import './App.css'
 
+import ScrollToTop from "./ScrollToTop"
+
 function App() {
 
   return (
     <UserProvider>
+      <ScrollToTop />
       <Routes>
         <Route index element={<LandingPage />}/>
         <Route path='/services' element={<ServicesPage/>}/>
