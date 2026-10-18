@@ -13,7 +13,7 @@ export default function Services() {
 
           <div className="service-card-landing">
             <Link to={'/services'} className="card-image">
-              <span>عکس</span>
+              <img src="../../../public/images/podcast-picture.jfif" alt="podcast-picture" />
             </Link>
 
             <p>پادکست</p>
@@ -21,7 +21,7 @@ export default function Services() {
 
           <div className="service-card-landing">
             <Link to={'/services'} className="card-image">
-              <span>عکس</span>
+              <img src="../../../public/images/course-picture.jfif" alt="course-picture" />
             </Link>
 
             <p>دوره آنلاین</p>
@@ -29,7 +29,7 @@ export default function Services() {
 
           <div className="service-card-landing">
             <Link to={'/services'} className="card-image">
-              <span>عکس</span>
+              <img src="../../../public/images/coaching-picture.jfif" alt="coaching-picture" />
             </Link>
 
             <p>کوچینگ</p>

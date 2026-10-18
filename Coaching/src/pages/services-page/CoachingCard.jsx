@@ -10,7 +10,7 @@ export default function CoachingCard() {
 
       <div className="coaching-feature">
         <div className="coaching-feature-image">
-          <img  alt='image' />
+          <img src="../../../public/images/coaching-picture.jfif" alt="" />
         </div>
         <div className="coaching-feature-body">
           <h3>کوچینگ فردی</h3>

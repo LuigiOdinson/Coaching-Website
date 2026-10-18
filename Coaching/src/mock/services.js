@@ -6,7 +6,7 @@ export const services = [
       "جلسات کوچینگ شخصی‌سازی‌شده برای کمک به پیدا کردن مسیر، غلبه بر موانع و رسیدن به اهداف.",
     type: "course",
     price: 100,
-    image: "/images/life-coaching.jpg"
+    image: "../../../public/images/course-picture.jfif"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const services = [
       "با اصول رهبری مؤثر آشنا شوید و مهارت‌های لازم برای رهبری با اعتمادبه‌نفس را توسعه دهید.",
     type: "course",
     price: 79,
-    image: "/images/leadership.jpg"
+    image: "../../../public/images/course-picture.jfif"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const services = [
       "گفت‌وگوهایی درباره رشد فردی، ذهنیت، عادت‌ها و ساختن آینده‌ای بهتر.",
     type: "podcast",
     price: 0,
-    image: "/images/podcast.jpg"
+    image: "../../../public/images/podcast-picture.jfif"
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const services = [
       "راهنمایی شخصی برای تصمیم‌گیری بهتر در مسیر شغلی و حرکت به سمت اهداف حرفه‌ای.",
     type: "podcast",
     price: 0,
-    image: "/images/career-coaching.jpg"
+    image: "../../../public/images/podcast-picture.jfif"
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const services = [
       "دوره‌ای کاربردی برای ایجاد عادت‌های پایدار و ایجاد تغییرات مثبت و ماندگار در زندگی روزمره.",
     type: "course",
     price: 59,
-    image: "/images/habits.jpg"
+    image: "../../../public/images/course-picture.jfif"
   },
   {
     id: 6,
@@ -51,6 +51,6 @@ export const services = [
       "گفت‌وگوهایی درباره ذهنیت، انگیزه، اعتمادبه‌نفس و رشد فردی.",
     type: "podcast",
     price: 0,
-    image: "/images/mindset-podcast.jpg"
+    image: "../../../public/images/podcast-picture.jfif"
   }
 ];

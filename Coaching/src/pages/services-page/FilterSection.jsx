@@ -4,6 +4,8 @@ export default function FilterSection({filter, setFilter}) {
 
   return (
     <div className="filter-section">
+      <p className="section-title">دوره‌ها و پادکست‌ها</p>
+      
       <nav className="filter-tab">
         <button
           className={`service-filter-button ${filter === "all" ? 'is-active' : ''}`}

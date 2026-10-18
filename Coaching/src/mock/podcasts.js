@@ -8,7 +8,7 @@ export const podcasts = [
       "گفت‌وگوهایی درباره رشد فردی، ذهنیت، عادت‌ها و ساختن آینده‌ای بهتر.",
     price: 0,
     host: "الکس مورگان",
-    image: "/images/podcast.jpg",
+    image: "../../../public/images/podcast-picture.jfif",
     episodesCount: 12,
 
     episodes: [
@@ -81,7 +81,7 @@ export const podcasts = [
       "گفت‌وگوهایی درباره ذهنیت، انگیزه، اعتمادبه‌نفس و رشد فردی.",
     price: 0,
     host: "الکس مورگان",
-    image: "/images/mindset-podcast.jpg",
+    image: "../../../public/images/course-picture.jfif.jpg",
     episodesCount: 6,
 
     episodes: [

@@ -16,9 +16,11 @@ export default function ServicesGrid({ filter }) {
       {filteredServices.map((service) => {
         return (
           // <Link to={`/services/${service.id}`}>
-          <Link to={`/service`}>
+          <Link key={service.id} to={`/service`}>
             <div className="service-card">
-              <div className="service-image"></div>
+              <div className="service-image">
+                <img src={service.image} alt={service.title} />
+              </div>
               <div className="service-body">
                 <span className="service-tag">{far_service_type[service.type]}</span>
                 <h3 className="service-title">{service.title}</h3>
