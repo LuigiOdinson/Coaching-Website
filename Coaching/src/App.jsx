@@ -4,6 +4,8 @@ import LandingPage from './pages/landing-page/LandingPage'
 import ServicesPage from './pages/services-page/ServicesPage'
 import SingleServicePage from './pages/single-service-page/SingleServicePage'
 import ProfilePage from './pages/profile-page/ProfilePage'
+import BookingPage from './pages/booking-page/BookingPage'
+
 import UserProvider from './providers/UserProvider'
 import './App.css'
 
@@ -20,6 +22,7 @@ function App() {
         {/* <Route path='/services/serviceId' element={<SingleServicePage/>}/> */}
         <Route path='/service' element={<SingleServicePage/>}/>
         <Route path='/profile' element={<ProfilePage/>}/>
+        <Route path='/booking' element={<BookingPage/>}/>
       </Routes>
     </UserProvider>
   )

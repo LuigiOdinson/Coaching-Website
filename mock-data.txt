@@ -139,19 +139,16 @@ GET /api/coaching
     {
       id: 1,
       type: "online",
-      title: "آنلاین",
       pricePerSession: 1000000
     },
     {
       id: 2,
       type: "inPerson",
-      title: "حضوری",
       pricePerSession: 1500000
     },
     {
       id: 3,
       type: "freeSession",
-      title: "رایگان",
       pricePerSession: 0
     }
     ]}

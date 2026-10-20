@@ -18,7 +18,7 @@ export default function CoachingCard() {
             جلسات یک‌به‌یک برای پیدا کردن مسیر، غلبه بر موانع و رسیدن به اهداف.
             زمان جلسه را خودتان انتخاب می‌کنید.
           </p>
-          <button className="button reserve-coaching-button">رزرو جلسه</button>
+          <a className="button reserve-coaching-button" href="/booking">رزرو جلسه</a>
         </div>
       </div>
     </div>
