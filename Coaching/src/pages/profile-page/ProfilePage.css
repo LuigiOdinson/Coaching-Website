@@ -168,19 +168,20 @@
 
 .schedule-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 300px));
+  justify-content: center;
   gap: 20px;
 }
 
 @media (max-width: 1024px) {
   .schedule-grid {
-    grid-template-columns: repeat(2, 1fr);;
+    grid-template-columns: repeat(2, minmax(0, 300px));
   }
 }
 
 @media (max-width: 700px) {
   .schedule-grid {
-    grid-template-columns: repeat(1, 1fr);;
+    grid-template-columns: minmax(0, 300px);
   }
 }
 
@@ -245,8 +246,9 @@
 }
 
 .schedule-notice {
-  margin-top: 50px;
-  padding: 24px;
+  max-width: 940px;
+  margin: 50px auto 0;
+  padding: 20px 30px;
   background: var(--color-bone);
   border: 1px solid var(--color-gray-light);
 }

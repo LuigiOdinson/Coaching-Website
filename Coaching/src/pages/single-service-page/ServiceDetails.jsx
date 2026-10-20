@@ -39,7 +39,7 @@ export default function ServiceDetails({serviceData}) {
 
               <div className="stat-info">
                 <span>مدت دوره</span>
-                <p>{Math.floor(serviceData.durationMins / 60)} ساعت</p>
+                <span className="stat-info-value">{Math.floor(serviceData.durationMins / 60)} ساعت</span>
               </div>
             </div>
           }
@@ -54,7 +54,7 @@ export default function ServiceDetails({serviceData}) {
 
             <div className="stat-info">
               <span>قیمت</span>
-              <p>{formatCurrency(serviceData.price, false)}</p>
+              <span className="stat-info-value">{formatCurrency(serviceData.price, false)}</span>
             </div>
           </div>
 
@@ -68,13 +68,13 @@ export default function ServiceDetails({serviceData}) {
             {serviceData.type === 'course' &&
               <div className="stat-info">
                 <span>تعداد جلسات</span>
-                <p>{serviceData.lessonsCount}</p>
+                <span className="stat-info-value">{serviceData.lessonsCount}</span>
               </div>
             }
             {serviceData.type === 'podcast' &&
               <div className="stat-info">
                 <span>تعداد اپیزود</span>
-                <p>{serviceData.episodesCount}</p>
+                <span className="stat-info-value">{serviceData.episodesCount}</span>
               </div>
             }
           </div>

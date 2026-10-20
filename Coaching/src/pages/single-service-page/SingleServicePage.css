@@ -63,6 +63,11 @@
   direction: rtl;
 }
 
+.stat-info-value{
+  font-size: 15px;
+  color: var(--color-sage-dark);
+}
+
 .course-stat {
   flex: 1;
   display: flex;
