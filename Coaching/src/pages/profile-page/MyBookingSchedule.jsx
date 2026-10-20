@@ -1,4 +1,5 @@
 import React from 'react'
+import formatPersianDate from '../../helpers/formatPersianDate'
 
 export default function MyBookingSchedule({ myBookings }) {
   const far_session_type_tag = {
@@ -16,16 +17,6 @@ export default function MyBookingSchedule({ myBookings }) {
 
   const onlineLink = "https://meet.google.com/xxx-yyyy-zzz";
   const inPersonAddress = "زنجان، خیابان --، پلاک ۱۲";
-
-  const formatPersianDate = (isoDate) => {
-    const date = new Date(isoDate);
-    return new Intl.DateTimeFormat("fa-IR", {
-      calendar: "persian",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    }).format(date);
-  };
 
   return (
     <div className="my-booking-schedule">

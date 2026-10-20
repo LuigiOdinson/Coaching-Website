@@ -1,4 +1,4 @@
-import React from 'react'
+import formatCurrency from '../../helpers/formatCurrency'
 
 export default function ServiceDetails({serviceData}) {
   return (
@@ -54,7 +54,7 @@ export default function ServiceDetails({serviceData}) {
 
             <div className="stat-info">
               <span>قیمت</span>
-              <p>{serviceData.price} تومن</p>
+              <p>{formatCurrency(serviceData.price, false)}</p>
             </div>
           </div>
 

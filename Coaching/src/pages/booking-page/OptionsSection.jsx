@@ -1,5 +1,6 @@
 import React from 'react'
 import { coaching } from '../../mock/coaching'
+import formatCurrency from '../../helpers/formatCurrency'
 
 export default function OptionsSection() {
   const far_session_type_tag = {
@@ -23,7 +24,7 @@ export default function OptionsSection() {
 
             <div className="option-left">
               {sessionType.type !== 'freeSession' &&
-                <span className="option-price"><span>{sessionType.pricePerSession}</span>تومان هر جلسه</span>
+                <span className="option-price">{formatCurrency(sessionType.pricePerSession)} هر جلسه</span>
               }
               <input type="radio" name="type" className="radio" />
             </div>

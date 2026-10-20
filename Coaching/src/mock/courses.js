@@ -6,7 +6,7 @@ export const courses = [
     title: "دوره جامع رهبری",
     description:
       "در این دوره با اصول رهبری مؤثر آشنا می‌شوید و مهارت‌های لازم برای هدایت بهتر یک تیم را یاد می‌گیرید.",
-    price: 79,
+    price: 340000,
     image: "../../../public/images/course-picture.jfif",
     durationMins: 480,
     lessonsCount: 24,
@@ -88,7 +88,7 @@ export const courses = [
     title: "ساختن عادت‌های بهتر",
     description:
       "دوره‌ای کاربردی برای شناخت عادت‌ها و ایجاد تغییرات پایدار در زندگی روزمره.",
-    price: 59,
+    price: 120000,
     image: "../../../public/images/course-picture.jifif",
     durationMins: 300,
     lessonsCount: 16,

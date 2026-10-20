@@ -6,7 +6,7 @@ export const podcasts = [
     title: "پادکست رشد و توسعه فردی",
     description:
       "گفت‌وگوهایی درباره رشد فردی، ذهنیت، عادت‌ها و ساختن آینده‌ای بهتر.",
-    price: 0,
+    price: 430000,
     host: "الکس مورگان",
     image: "../../../public/images/podcast-picture.jfif",
     episodesCount: 12,
@@ -79,7 +79,7 @@ export const podcasts = [
     title: "ذهنیت مهم است",
     description:
       "گفت‌وگوهایی درباره ذهنیت، انگیزه، اعتمادبه‌نفس و رشد فردی.",
-    price: 0,
+    price: 500000,
     host: "الکس مورگان",
     image: "../../../public/images/course-picture.jfif.jpg",
     episodesCount: 6,

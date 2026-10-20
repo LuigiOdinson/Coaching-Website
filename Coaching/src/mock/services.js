@@ -5,7 +5,7 @@ export const services = [
     description:
       "جلسات کوچینگ شخصی‌سازی‌شده برای کمک به پیدا کردن مسیر، غلبه بر موانع و رسیدن به اهداف.",
     type: "course",
-    price: 100,
+    price: 100000,
     image: "../../../public/images/course-picture.jfif"
   },
   {
@@ -14,7 +14,7 @@ export const services = [
     description:
       "با اصول رهبری مؤثر آشنا شوید و مهارت‌های لازم برای رهبری با اعتمادبه‌نفس را توسعه دهید.",
     type: "course",
-    price: 79,
+    price: 340000,
     image: "../../../public/images/course-picture.jfif"
   },
   {
@@ -23,7 +23,7 @@ export const services = [
     description:
       "گفت‌وگوهایی درباره رشد فردی، ذهنیت، عادت‌ها و ساختن آینده‌ای بهتر.",
     type: "podcast",
-    price: 0,
+    price: 430000,
     image: "../../../public/images/podcast-picture.jfif"
   },
   {
@@ -32,7 +32,7 @@ export const services = [
     description:
       "راهنمایی شخصی برای تصمیم‌گیری بهتر در مسیر شغلی و حرکت به سمت اهداف حرفه‌ای.",
     type: "podcast",
-    price: 0,
+    price: 265000,
     image: "../../../public/images/podcast-picture.jfif"
   },
   {
@@ -41,7 +41,7 @@ export const services = [
     description:
       "دوره‌ای کاربردی برای ایجاد عادت‌های پایدار و ایجاد تغییرات مثبت و ماندگار در زندگی روزمره.",
     type: "course",
-    price: 59,
+    price: 120000,
     image: "../../../public/images/course-picture.jfif"
   },
   {
@@ -50,7 +50,7 @@ export const services = [
     description:
       "گفت‌وگوهایی درباره ذهنیت، انگیزه، اعتمادبه‌نفس و رشد فردی.",
     type: "podcast",
-    price: 0,
+    price: 500000,
     image: "../../../public/images/podcast-picture.jfif"
   }
 ];
