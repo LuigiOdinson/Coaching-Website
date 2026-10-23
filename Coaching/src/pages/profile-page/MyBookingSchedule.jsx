@@ -31,14 +31,15 @@ export default function MyBookingSchedule({ myBookings }) {
 
         <div className="schedule-grid">
           {myBookings.map((booking) => (
-            <div className="schedule-card">
+            <div key={booking.id} className="schedule-card">
+
               <div className="schedule-card-header">
                 <span className="schedule-date">{formatPersianDate(booking.date)}</span>
               </div>
 
               <div className="schedule-card-body">
                 {booking.slots.map((slot) => (
-                  <div className="schedule-row">
+                  <div key={slot.id} className="schedule-row">
                     <span className="tag">{far_session_type_tag[slot.sessionType]}</span>
                     <span className="schedule-time">{slot.startTime} - {slot.endTime}</span>
                   </div>
@@ -47,7 +48,6 @@ export default function MyBookingSchedule({ myBookings }) {
 
             </div>
           ))}
-
         </div>
 
         {(hasOnlineOrFree || hasInPerson) && (

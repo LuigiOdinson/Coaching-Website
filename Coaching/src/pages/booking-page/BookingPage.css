@@ -98,3 +98,16 @@
   border-radius: 50%;
   background: var(--color-sage-dark);
 }
+
+/* TIME SLOTS */
+.time-slots-section {
+  direction: rtl;
+  margin-top: 50px;
+}
+.time-slots-section .schedule-card-header {
+  background: var(--color-beige-light);
+}
+
+.time-slots-section .schedule-row {
+  flex-direction: row;
+}
