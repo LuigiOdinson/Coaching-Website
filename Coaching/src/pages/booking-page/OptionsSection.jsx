@@ -15,8 +15,7 @@ export default function OptionsSection() {
 
       <div className="options">
         {coaching.sessionTypes.map((sessionType) => (
-
-          <label id={sessionType.id} className="option">
+          <label key={sessionType.id} className="option">
             <div className="option-info">
               <span className="option-title">{far_session_type_tag[sessionType.type]}</span>
               <span className="option-sub">جلسه <span>{sessionType.durationMins}</span> دقیقه‌ای</span>
@@ -29,7 +28,6 @@ export default function OptionsSection() {
               <input type="radio" name="type" className="radio" />
             </div>
           </label>
-
         ))}
       </div>
     </div>

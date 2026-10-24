@@ -104,10 +104,20 @@
   direction: rtl;
   margin-top: 50px;
 }
+
 .time-slots-section .schedule-card-header {
-  background: var(--color-beige-light);
+  background: var(--color-sage-light);
 }
 
 .time-slots-section .schedule-row {
-  flex-direction: row;
+  justify-content: start;
+}
+
+.schedule-time.selected {
+  font-weight: 800;
+}
+
+.schedule-time .check {
+  color: var(--color-sage-dark);
+  font-size: 15px;
 }
