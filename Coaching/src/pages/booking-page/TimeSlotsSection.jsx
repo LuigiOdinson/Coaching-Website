@@ -2,8 +2,7 @@ import {useState} from 'react'
 import formatPersianDate from '../../helpers/formatPersianDate'
 import { availability } from '../../mock/availability'
 
-export default function TimeSlotsSection() {
-  const [selectedSlots, setSelectedSlots] = useState([]);
+export default function TimeSlotsSection({selectedSlots, setSelectedSlots}) {
 
   const toggleSelected = (slotId) => {
     setSelectedSlots((prev) => 
