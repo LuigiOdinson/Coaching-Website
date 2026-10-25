@@ -19,7 +19,6 @@ export const courses = [
           "آشنایی با مفاهیم پایه رهبری و تفاوت میان مدیر و رهبر.",
         durationMins: 18,
         publishedAt: "2026-09-10",
-        status: "done"
       },
       {
         id: 2,
@@ -28,7 +27,6 @@ export const courses = [
           "بررسی سبک‌های مختلف رهبری و زمان مناسب استفاده از هرکدام.",
         durationMins: 32,
         publishedAt: "2026-09-10",
-        status: "done"
       },
       {
         id: 3,
@@ -37,7 +35,6 @@ export const courses = [
           "چگونه بهتر گوش کنیم، بازخورد بدهیم و با اعضای تیم ارتباط مؤثرتری داشته باشیم.",
         durationMins: 27,
         publishedAt: "",
-        status: "in-production"
       },
       {
         id: 4,
@@ -46,7 +43,6 @@ export const courses = [
           "روش‌هایی برای گرفتن تصمیم‌های بهتر در شرایط پیچیده و پرفشار.",
         durationMins: 35,
         publishedAt: "",
-        status: "in-production"
       }
     ],
 
@@ -101,7 +97,6 @@ export const courses = [
           "بررسی نحوه شکل‌گیری عادت‌ها و عواملی که باعث تکرار رفتارها می‌شوند.",
         durationMins: 22,
         publishedAt: "2026-09-12",
-        status: "done"
       },
       {
         id: 2,
@@ -110,7 +105,6 @@ export const courses = [
           "چگونه عادت‌هایی را که مانع پیشرفت ما می‌شوند شناسایی کنیم.",
         durationMins: 25,
         publishedAt: "2026-09-12",
-        status: "done"
       },
       {
         id: 3,
@@ -119,7 +113,6 @@ export const courses = [
           "روش‌های عملی برای ایجاد عادت‌های جدید و حفظ آن‌ها در طول زمان.",
         durationMins: 31,
         publishedAt: "2026-09-13",
-        status: "done"
       }
     ],
 

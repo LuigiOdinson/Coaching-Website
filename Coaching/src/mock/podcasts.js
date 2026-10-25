@@ -14,7 +14,6 @@ export const podcasts = [
     episodes: [
       {
         id: 1,
-        episodeNumber: 1,
         title: "چگونه عادت‌های بهتری بسازیم؟",
         description:
           "گفت‌وگویی درباره ایجاد عادت‌های پایدار و تبدیل آن‌ها به بخشی از زندگی روزمره.",
@@ -23,7 +22,6 @@ export const podcasts = [
       },
       {
         id: 2,
-        episodeNumber: 2,
         title: "اهمیت ذهنیت در موفقیت",
         description:
           "بررسی نقش ذهنیت در نحوه برخورد ما با چالش‌ها و شکست‌ها.",
@@ -32,7 +30,6 @@ export const podcasts = [
       },
       {
         id: 3,
-        episodeNumber: 3,
         title: "چگونه اهداف بهتری تعیین کنیم؟",
         description:
           "درباره تعیین اهداف مشخص، واقع‌بینانه و قابل پیگیری صحبت می‌کنیم.",
@@ -87,7 +84,6 @@ export const podcasts = [
     episodes: [
       {
         id: 1,
-        episodeNumber: 1,
         title: "ذهنیت رشد چیست؟",
         description:
           "آشنایی با مفهوم ذهنیت رشد و تأثیر آن بر یادگیری و پیشرفت.",
@@ -96,7 +92,6 @@ export const podcasts = [
       },
       {
         id: 2,
-        episodeNumber: 2,
         title: "مقابله با ترس از شکست",
         description:
           "چگونه می‌توانیم نگاه متفاوتی نسبت به شکست و اشتباه داشته باشیم.",
