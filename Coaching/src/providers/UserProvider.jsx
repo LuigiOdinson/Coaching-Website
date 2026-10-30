@@ -6,6 +6,7 @@ const fakeUser = {
   firstName: "علی",
   lastName: "محمدی",
   phoneNumber: "09121234567",
+  email: "ali.mohammadi@gmail.com",
   // for front-end testing
   hasBoughtService: true
 };

@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   z-index: 100;
-  background: var(--color-beige-dark);
+  background: white;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -30,7 +30,7 @@
 }
 
 .header-profile:hover {
-  color: var(--color-sage);
+  color: var(--color-gold);
 }
 
 .log-in-button {
@@ -61,7 +61,7 @@
 }
 
 .header-link:hover {
-  color: var(--color-sage);
+  color: var(--color-gold);
 }
 
 .hamburger-menu-icon {
@@ -91,7 +91,7 @@
   .header-nav {
     flex-direction: column;
     gap: 20px;
-    background-color: var(--color-beige-dark);
+    background-color: white;
     position: absolute;
     top: 100%;
     right: 0;

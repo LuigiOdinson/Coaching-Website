@@ -6,10 +6,9 @@ export default function AboutMe() {
 
       <div className="about-me-content">
         <div className="about-me-keywords">
-          <p>درباره من</p>
+          <h2>درباره من</h2>
           <p>
-            reprehenderit reprehenderit veniam
-            anim laborum pariatur.
+            من همسفر شما هستم. همسفر شما در مسیر رشد و تعالی. باور دارم هر انسانی پتانسیل بی‌نهایتی برای ساختن زندگی دلخواهش دارد.
           </p>
         </div>
 
@@ -19,7 +18,7 @@ export default function AboutMe() {
       </div>
 
       <div className="about-me-image">
-        <span>عکس</span>
+        <img src="/images/about-me-image.jpg" alt="" />
       </div>
     </section>
   )
